@@ -1,6 +1,9 @@
-function calculateTotalPrice(quantity = 1, price = 44000) {
-    let result = quantity * price;
-    let message = result.toLocaleString("ru-RU")
-    const total = document.querySelector(".total");
-    total.textContent = (`Общая стоимость составит ${message} рублей`);
+function showCat1() {
+    const cat1Img = document.getElementById("cat1Img");
+    cat1Img.src = "./assets/images/cat2.jpeg";
+}
+
+function showCat2() {
+    const cat1Img = document.getElementById("cat1Img");
+    cat1Img.src = "./assets/images/cat3.jpeg";
 }

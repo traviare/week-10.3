@@ -7,7 +7,7 @@
 
 .gallery {
     max-width: 1024px;
-    height: 480px;
+    height: 400px;
     margin: 0 auto;
     border: solid 2px blue;
 }
@@ -20,32 +20,28 @@
 
 }
 
-.product {
-    margin-top: 30px;
+.img_cat1 {
+    height: 300px;
+    width: 300px;
 }
 
-.button {
+.buttons {
     display: flex;
     justify-content: space-around;
     margin-top: 30px;
 }
 
-.text {
-    display: flex;
-    justify-content: center;
-    margin-top: 30px;
-}
-
-.price {
+.previous,
+.next {
     border-radius: 8px;
-    width: 200px;
+    width: 100px;
     height: 50px;
     background-color: blue;
     color: aliceblue;
     cursor: pointer;
 }
 
-.price:hover,
+.previous:hover,
 .next:hover {
     background-color: rgb(53, 53, 254);
 }
